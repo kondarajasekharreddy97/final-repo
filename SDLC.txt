@@ -1,0 +1,264 @@
+What is Software?
+=================
+
+A Software is a collection of Programs.
+A Program is a collection of Instructions.
+
+
+
+what is the difference between Product Vs Project?
+==================================================
+
+Product
+=======
+
+If Software Application is developed for multiple customers based on the Market requirement then it is called Product.
+
+
+Project
+=======
+
+If Software Application is developed for specific customer based on his requirement then it is called Project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SDLC
+====
+
+SDLC Stands for Software Development Life Cycle
+
+What is meant by Software Development
+=====================================
+
+Software Development is the process of transforming Customer Requirements into a Complete Software Product.
+
+
+Phases in SDLC 
+==============
+1.Requirements Gathering  (Planning)
+2.Analysis
+3.Design
+4.Implementation    (Coding)
+5.Testing
+6.Deployment
+7.Maintenance
+
+
+SDLC Models
+===========
+1.Waterfall Model
+2.Agile Model
+3.V-Model 
+4.Spiral Model
+5.Prototype Model
+
+
+
+
+Waterfall Model
+===============
+
+Waterfall model follows a linear sequential model of development  i.e until the first stage is not finished, the next stage will not start.
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Agile Model
+===========
+
+Agile Model follows Iterative and Incremental approach.
+
+
+Agile Principles
+================
+
+1.Customer no need to wait for long time.
+
+2.We can accept / accommodate the requirement changes in the       middle of the Project.
+
+3.We Develop , Test and Release as piece of software to the       customer with few number of features.
+
+Let's take Example:  100 Requirements
+
+First we will take one requirement then we will plan, design, Develop, Test and Release that requirement to the Client.
+
+After Completion of the first requirement then only we will go for second requirement . Again in second requirement we will follow the same process (plan, design, Develop, Test and Release).
+
+After completion of the second requirement we will go for the third requirement . again in third requirement we will follow the same process (plan, design, Develop, Test and Release).
+
+                       .
+		       .
+                       .
+                       .
+                       .
+                       .
+                       ETC
+
+
+
+Advantages of Agile
+===================
+
+1.Requirement changes are allowed or accommodate in any stage of    Development.
+
+2.Release will be very Fast (2 weeks - 4 weeks).
+
+
+
+Disadvantage of Agile
+=====================
+
+1.Less Design and Documentation.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+SCRUM
+=====
+Scrum is a Framework through which we build software products by following the Agile principles.
+
+
+Scrum includes group of people called as Scrum team which contains 4-8 people.
+
+
+1.Product Owner
+2.Scrum Master
+3.Development Team
+4.QA Team
+
+
+
+
+1.Product Owner
+===============
+
+---> Who defines the features of the Product.
+---> Prioritize features according to the market value.
+---> Adjust feature and Priority in every iteration as needed.
+---> Accept or Reject the work results.
+
+
+
+
+2.Scrum Master
+==============
+
+---> The main role of Scrum Master is to drive the Agile process.
+
+
+
+
+3&4. Dev & QA 
+=============
+ 
+---> Develop and Test the Software.
+
+
+Scrum Terminologies
+====================
+
+1.User Story
+2.EPIC
+3.Product Backlog
+4.Sprint
+5.Sprint Planning Meeting
+6.Sprint Backlog
+7.Scrum Meeting
+8.Sprint Retrospective Meeting
+9.Story Point
+10.Burndown Chart
+
+
+
+1.User Story
+============
+
+---> A feature / Module of a Software.
+
+
+2.EPIC
+======
+
+---> Collection of User Stories is called as EPIC.
+
+
+3.Product Backlog
+=================
+
+---> Contains list of User Stories, prepared by the Product Owner.
+
+
+
+4.Sprint
+========
+
+---> Period of time to complete the user stories, decided by the      Product Owner & Team (2 weeks - 4 weeks).
+
+
+
+5.Sprint Planning Meeting
+=========================
+
+---> Meeting conducted with a team to define what can be delivered 
+     in the sprint and duration of the sprint.
+
+
+
+6.Sprint Backlog
+================
+
+---> List of committed Stories  by Dev / QA for specific sprints.
+
+
+
+7.Scrum Meeting
+===============
+
+---> Meeting conducted by the Scrum Master everyday for 15 minutes      and also called as StandUp Call / Meeting / Scrum Call.
+
+
+
+8.Sprint Retrospective Meeting
+==============================
+
+---> Conducts meeting after completion of sprint. The entire team       which includes both Scrum Master and Product Owner will            participate.
+
+
+9.Story Point
+=============
+
+---> Rough Estimation of User Stories.
+
+
+10.Burndown Chart
+=================
+
+---> Shows how much work remaining in the Sprint.
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+
+
+
+
+
