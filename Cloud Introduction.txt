@@ -1,0 +1,211 @@
+                             Cloud 
+                             =====
+SLA Stands for Service Level Agreement  (99.99)
+Example: That means when you launch an EC2 Instance for 1 lakhtimes,you will launch 99999 times very comfortably with out any issue,may be that remaining 1 time you may face some kind of issue while launching an EC2 Instance.
+
+
+
+Advantages of Cloud
+====================
+
+1.No Upfront Payment
+2.Global Service
+3.No Maintainance of Underlying Hardware          (Servers,Switches,Routers,Cables,HDD,Power Backup,AC ...Etc)
+
+4.No need to wait for 3-4 weeks to get a Server.
+5.No need to recruit Hardware Engineers ,Network Engineers Etc
+6.Cost Saving
+7.Time Saving
+
+Pay-as-you-go:
+==============
+
+Pay for the resources based on the usage.
+If you use a Server for 1 hour, you pay for that 1 hour only
+If you use a Server for 10 hours, you pay for that 10  hours only.
+
+
+Pay-as-you-grow
+===============
+
+Pay for the resources based on the resource Configuration.
+Ex:
+     t2.nano    ---> Very Very Less Amount if you use this one
+     t2.small   ---> Very Less Amount if you use this one
+     t2.micro   ---> Less Amount if you use this one
+     t2.medium  ---> Average Amount if you use this one
+     t2.large   ---> More Amount if you use this one
+     t2.xlarge ..Etc
+
+
+
+Example:  Hotel
+         
+         Small Hotel
+         Normal Hotel
+         Medium Hotel
+         3-Star Hotel
+         5-Star Hotel ..Etc
+
+==================================================================
+yum install httpd -y
+systemctl start httpd
+cd /var/www/html
+   --->vim index.html
+          <h1> Welcome to AWS </h1>
+          <h2> Welcome to Linux </h1>
+
+If you stop and start the Server the httpd service will going to stop. After starting the Server again you need to start the httpd Service.
+
+Instead of that you can run a command "chkconfig httpd on" after starting the httpd Service.
+
+Now if you stop and start the Server, the httpd Service will going to start automatically. We no need to restart the httpd Service.
+
+==================================================================
+
+If you want to Upgrade the Server (Ex: t2.micro to t2.xlarge)
+first you need to stop the Server,then you can change the Instance Type and again start the Server.(But here the main problem is                                         DOWNTIME)
+
+------------------------------------------------------------------
+
+
+Latency   : Time taken to get the response from the server (5 ms)
+=======
+
+Delay in Response  (measured in Milli-seconds)
+
+If you want to check you can check
+
+ping google.com                      ping yahoo.com
+===============                     ==================
+
+It will display in seconds           It will display in seconds
+
+29.855 ms                                223.655 ms
+
+         
+traceroute google.com                traceroute yahoo.com     
+======================               ====================
+
+To know how the request              To know how the request is
+is reaching to the                   reaching to the yahoo server
+google server              
+
+------------------------------------------------------------------
+
+Tenancy
+=======
+
+Shared:    Underlying hardware shared with another customers.
+
+Dedicated: Underlying hardware won't share with another customers.
+           Dedicated to same customer.
+
+------------------------------------------------------------------
+
+Cloud Deployment Models
+=======================
+
+Public Cloud     (AWS , AZURE ,GCP)
+------------
+
+---> Open for all  (Any one can create the account and use that                                 account)
+
+---> Maintenance will be taken care by the Provider / Vendor.
+
+
+Private Cloud      (HCL , Infosys, Dell , TCS Data Centers)
+-------------
+
+---> Dedicated for one Organisation .
+
+---> Maintenance : Organisation will maintain Dedicated Team for                      maintenance (OR) 3rd Party Organisation will                                         maintain.
+                    
+
+---> All Infosys Servers are running in Infosys Data center                                  (mysore)
+
+---> ICICI Data Center's are maintained by Infosys.
+
+
+
+Hybrid Cloud
+=============
+
+---> Combination of multiple Cloud Platforms.
+
+---> Public + Public Cloud 
+
+---> Servers in AWS + Servers in Azure 
+
+---> We can enable Communication between these two Cloud Platforms                                             
+---> Private + Public Cloud
+
+---> Your Organisation (TCS) owned a Data Center +  AWS
+
+---> Private + Private Cloud   ----> LTI Purchased MindTree
+
+
+1.Site-to-Site-VPN Connection
+2.AWS Direct Connect
+3.AWS Outpost
+
+
+
+Community Cloud
+===============
+
+---> Group of Organisations, Pool the money and build the Data          Center , Only that group of Organisations are allowed to use
+     this resources.
+
+---> Maintenance : Any one Organisation from that Community (OR)
+                   Give it to 3rd Party Organisation.
+
+
+
+
+------------------------------------------------------------------
+
+
+Cloud Computing Service Models
+==============================
+
+1.SAAS   ----> Software as a Service  ---> Ex : Light Sail
+2.PAAS   ----> Platform as a Service  ---> Ex : ElasticBeanStalk
+3.IAAS   ----> Infrastructure as a Service  ---> Ex: EC2 Instance
+
+
+
+Traditional On-Premises
+=======================
+
+Data                 ---> Developer
+Middleware / Runtime ---> Application Admins
+OS                   ---> Wintel / Linux / System Admins
+Virtualisation       ---> VMware / Citrix
+Servers              ---> Wintel / System Engineers
+Storage              ---> Storage Admins
+Database             ---> Database Admins
+Network              ---> Network Engineers
+
+
+
+MiddleWare / Runtime ---> Ex: Web Server (HTTPD , NGINX , ISS Etc)
+
+
+------------------------------------------------------------------
+
+Difference Between S3 and RDS
+=============================
+
+1.S3 is a Storage Service
+2.RDS is a Database Service
+
+3.S3 will not support any Installations like OS installation.
+  We can't Execute any files in S3 like .py , .java files ..Etc
+
+4.RDS supports Installations like OS Installation , Database         installation (MYSQL, ORACLE, MSSQL, POSTGRESQL ..ETC)
+
+------------------------------------------------------------------
+
+Subnet is nothing but an Availability Zone
+
